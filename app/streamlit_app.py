@@ -25,7 +25,7 @@ from app.explainability import explain_recommendation, explain_tfidf_overlap
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="🎵 Music Recommender",
+    page_title="🎵 Multilingual music recommender",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -668,7 +668,7 @@ with st.sidebar:
         viz_samples = st.slider("Points in 3D plot", 500, 3000, 1500, 500)
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.markdown('<div class="main-title">🎵 Music Recommender</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🎵 Multilingual music recommender</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="subtitle">Hybrid Cross-lingual · TF-IDF · Multilingual Embeddings · 3D Visualization</div>',
     unsafe_allow_html=True,
